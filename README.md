@@ -1,5 +1,7 @@
 # TwoCaptchaApi
 
+Example:
+
     private async void SolveAsync()
     {
             var client = new Client("672862832aaa6d5d9ec9584a2a744fd3");
@@ -10,3 +12,10 @@
                 Console.WriteLine(ans.Recaptcha_Ans);
             }
      }
+
+Extra Configs:
+
+    var client = new Client("672862832aaa6d5d9ec9584a2a744fd3");
+ 
+    client.TotalChecks = 50;
+    client.DelayTime = 5; //in seconds
