@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TwoCaptchaApi
 {
-    class Client
+    public class Client
     {
 
         /// <summary>
